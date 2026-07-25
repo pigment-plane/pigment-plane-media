@@ -12,7 +12,8 @@
       "published_media_id": "",
       "publish_attempt_started_at": "",
       "published_at": "",
-      "error": ""
+      "error": "",
+      "test_batch": true
     },
     {
       "sequence": "002",
@@ -24,7 +25,8 @@
       "published_media_id": "",
       "publish_attempt_started_at": "",
       "published_at": "",
-      "error": ""
+      "error": "",
+      "test_batch": true
     },
     {
       "sequence": "003",
