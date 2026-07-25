@@ -2,7 +2,7 @@ name: Publish Pigment & Plane Reel
 
 on:
   schedule:
-    - cron: "0 13 * * *" # 22:00 Asia/Tokyo
+    - cron: "*/5 13 * * *" # 22:00-22:55 Asia/Tokyo; retries missed scheduled starts
   workflow_dispatch:
 
 permissions:
