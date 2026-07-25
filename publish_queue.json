@@ -18,7 +18,7 @@
     },
     {
       "sequence": "002",
-      "scheduled_at": "2026-07-25T00:00:00+09:00",
+      "scheduled_at": "2026-07-25T22:00:00+09:00",
       "status": "approved",
       "caption": "The Plant on the Bench\n\n#PottedPlant #GreenhouseInterior #PlantOnBench #IndoorGarden",
       "share_to_feed": true,
@@ -27,7 +27,7 @@
       "publish_attempt_started_at": "",
       "published_at": "",
       "error": "",
-      "test_batch": true
+      "test_batch": false
     },
     {
       "sequence": "003",
