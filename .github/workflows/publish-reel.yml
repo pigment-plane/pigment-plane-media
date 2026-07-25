@@ -1,0 +1,31 @@
+name: Publish Pigment & Plane Reel
+
+on:
+  schedule:
+    - cron: "0 13 * * *" # 22:00 Asia/Tokyo
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pigment-plane-reel-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish one due Reel
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+        run: python publish_reel.py
+      - name: Save publication state
+        if: always()
+        run: |
+          git config user.name "Pigment Plane Publisher"
+          git config user.email "actions@github.com"
+          git add publish_queue.json
+          git diff --cached --quiet || git commit -m "Record Reel publishing state"
+          git push
