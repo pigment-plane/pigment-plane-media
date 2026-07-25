@@ -5,15 +5,16 @@
     {
       "sequence": "001",
       "scheduled_at": "2026-07-25T00:00:00+09:00",
-      "status": "approved",
+      "status": "published",
       "caption": "The Stop on the Curve\n\n#TramStop #CurvingRails #CoastalRoute #Waterside",
       "share_to_feed": true,
-      "container_id": "",
-      "published_media_id": "",
+      "container_id": "18057217460555991",
+      "published_media_id": "18152667292448237",
       "publish_attempt_started_at": "",
-      "published_at": "",
+      "published_at": "2026-07-25T06:47:43.799Z",
       "error": "",
-      "test_batch": true
+      "test_batch": false,
+      "published_permalink": "https://www.instagram.com/reel/DbNNGnvgH8B/"
     },
     {
       "sequence": "002",
