@@ -65,6 +65,9 @@ def main():
     entry["status"] = "published"
     save(data)
     print(f"Published {entry['sequence']}")
+    more_test_posts = [e for e in entries if e.get("test_batch") and e["status"] == "approved" and not e["published_media_id"] and due(e["scheduled_at"])]
+    if more_test_posts:
+        main()
 
 if __name__ == "__main__":
     main()
