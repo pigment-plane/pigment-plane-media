@@ -114,6 +114,18 @@
       "published_at": "",
       "error": "",
       "test_batch": false
+    },
+    {
+      "sequence": "010",
+      "scheduled_at": "2026-08-02T22:00:00+09:00",
+      "status": "approved",
+      "caption": "The Red Footbridge\n\n#RedFootbridge #CanalBridge #PedestrianBridge #CanalReflection",
+      "share_to_feed": true,
+      "container_id": "",
+      "published_media_id": "",
+      "publish_attempt_started_at": "",
+      "published_at": "",
+      "error": ""
     }
   ]
 }
