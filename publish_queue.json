@@ -162,6 +162,18 @@
       "publish_attempt_started_at": "",
       "published_at": "",
       "error": ""
+    },
+    {
+      "sequence": "014",
+      "scheduled_at": "2026-08-06T22:00:00+09:00",
+      "status": "approved",
+      "caption": "The Ferry Shelter at the Pier\n\n#FerryShelter #OchrePier #LifebuoyCabinet #HarborPier",
+      "share_to_feed": true,
+      "container_id": "",
+      "published_media_id": "",
+      "publish_attempt_started_at": "",
+      "published_at": "",
+      "error": ""
     }
   ]
 }
